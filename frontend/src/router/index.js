@@ -14,7 +14,7 @@ const router = createRouter({
       component: HomeView,
     },
     {
-      path: "/contact",
+      path: "/contact/:id",
       name: "contact",
       component: ContactView,
     },
@@ -24,7 +24,7 @@ const router = createRouter({
       component: CreateContactView,
     },
     {
-      path: "/update",
+      path: "/update/:id",
       name: "update",
       component: UpdateContactView,
     },
